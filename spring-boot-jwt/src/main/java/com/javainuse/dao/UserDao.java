@@ -16,5 +16,5 @@ import com.javainuse.model.DAOUser;
 @Repository
 public interface UserDao extends CrudRepository<DAOUser, Integer> {
 
-    UserDao findByUsername(String username);
+    DAOUser findByUsername(String username);
 }
